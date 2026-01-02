@@ -17,31 +17,36 @@ VeriFact is a web application that allows users to verify the credibility of cla
 - APIs: DuckDuckGo search
 
 ## Project Structure
+```text
 verifact/
 ├── backend/
 ├── frontend/
 └── README.md
+```
 
 ## How to Run Locally
 
-1. Install dependencies
+### 1. Install dependencies
+```bash
+cd backend
+npm install
+cd ../frontend
+npm install
+```
 
-cd backend  
-npm install  
-cd ../frontend  
-npm install  
+### 2. Start backend server
+```bash
+cd backend
+npm run dev
+```
 
-2. Start backend server
+### 3. Start frontend
+```bash
+cd frontend
+npm run dev
+```
 
-cd backend  
-npm run dev  
-
-3. Start frontend
-
-cd frontend  
-npm run dev  
-
-4. Open in browser  
+### 4. Open in browser
 http://localhost:3000
 
 ## Notes
